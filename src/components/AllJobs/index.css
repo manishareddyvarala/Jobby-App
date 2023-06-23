@@ -1,0 +1,160 @@
+.job-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+.job-details-list {
+  list-style-type: none;
+}
+
+.no-jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-job-logo {
+  height: 300px;
+}
+.no-jobs-heading {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 25px;
+  font-weight: 600;
+}
+.no-jobs-para {
+  color: #f8fafc;
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 100;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.failure-view {
+  height: 300px;
+}
+
+.head {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+.profile-logo-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 30px;
+  padding-bottom: 40px;
+  border-radius: 40px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.para {
+  color: #2c364c;
+  font-weight: 300;
+  font-family: 'roboto';
+}
+
+.profile-failure-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.job-profile-details-view-container {
+  background-color: #000000;
+  padding: 30px;
+  display: flex;
+
+  flex-grow: 1;
+}
+
+.left-side-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 30px;
+}
+.search-bar {
+  background-color: transparent;
+  border: 1px solid grey;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.search-btn {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  background-color: #202020;
+}
+.search-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.hr-line {
+  border: 1px solid grey;
+  width: 100%;
+}
+.checkbox-input {
+  width: 18px;
+  height: 18px;
+}
+.checkbox-label {
+  color: #ffffff;
+  font-size: 20px;
+}
+.checkbox-view-container {
+  list-style-type: none;
+}
+.check-box-list-container {
+  margin-bottom: 10px;
+}
+.type-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.sub-job-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+}
+.search-container {
+  display: none;
+}

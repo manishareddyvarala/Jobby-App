@@ -1,0 +1,131 @@
+.job-item-details-container {
+  background-color: #000000;
+  min-height: 300vh;
+  padding-top: 1px;
+}
+.job-bg-list-container {
+  background-color: #2c364c;
+  max-height: 150vh;
+  margin: 30px;
+  border-radius: 15px;
+}
+.jobs-list-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+.company-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.company-logo {
+  height: 50px;
+}
+.company-title {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 20px;
+  padding-left: 5px;
+}
+.rating {
+  display: flex;
+}
+.rating-icons {
+  padding-top: 10px;
+  height: 40px;
+}
+
+.package-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+.location-item-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.hr {
+  width: 100%;
+}
+.desc {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+.des-para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+}
+.description-container {
+  display: flex;
+  justify-content: space-around;
+}
+.visit-anchor {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+}
+.skill-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.list-skill-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.skill-logo {
+  height: 50px;
+}
+.skill-para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+}
+.life-company-container {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+.life-para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+}
+.life-company {
+  border-radius: 5px;
+}
+.similar-list-container {
+  list-style-type: none;
+  display: flex;
+}
+.failure-view {
+  height: 300px;
+}
+.failure-container-job {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+.loader-job-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
